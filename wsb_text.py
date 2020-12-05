@@ -1,19 +1,29 @@
 import tkinter as tk
+from tkinter import messagebox
 import webbrowser as wb
 import time
 import pyautogui
 import pyttsx3
 def run():
-
+    try:
+        if ent2.get() != int(ent2.get()) and ent3.get() != int(ent3.get()):
+            pass
+    except:
+        tk.messagebox.showerror(title="FAILED",message="\t\t Oops! \n You have entered wrong value. Numbers can't be text values!!! ")
+       
     txt = ent1.get().split()
     num = int(ent2.get())
     rep = int(ent3.get())
+    ent1.delete(0,tk.END)
+    ent2.delete(0,tk.END)
+    ent3.delete(0,tk.END)
     
+    tk.messagebox.showinfo(title="SUCCESS",message=f"\t\tCongratulations!\n\n You have sent {rep} times the same text to {num}")
 
     wb.open_new("https://wa.me/91{}".format(num))
-    time.sleep(10)
+    time.sleep(6)
     pyautogui.press("enter")
-    time.sleep(15)
+    time.sleep(12)
     for i in range(rep):
         for j in range(len(txt)):
             pyautogui.write(txt[j],interval=0.2)
@@ -47,6 +57,4 @@ button1 = tk.Button(window,text="SUBMIT",font=("Gill Sans",20),command=run)
 button1.place(x=145,y=340)  # pack issue
 
 window.mainloop()
-import os 
-os.getcwd()
 
