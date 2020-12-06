@@ -12,7 +12,7 @@ Just adding some stuff to help with beginners!
 Not Much to do here, just install with:
 
     git clone git@github.com:BradyCodes/Whatsapp-Spam-Bot.git
-
+            
 <br />
 
 
@@ -29,7 +29,7 @@ Not Much to do here, just install with:
 ### Installing With Git
 
     cd ../
-    git clone git@github.com:BradyCodes/Whatsapp-Spam-Bot.git
+    git clone git@github.com:abraraltaf92/Whatsapp-Spam-Bot.git
 
 ### Installing The Packages
 
