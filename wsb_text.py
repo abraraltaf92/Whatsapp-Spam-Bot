@@ -9,16 +9,18 @@ def run():
         if ent2.get() != int(ent2.get()) and ent3.get() != int(ent3.get()):
             pass
     except:
-        tk.messagebox.showerror(title="FAILED",message="\t\t Oops! \n You have entered wrong value. Numbers can't be text values!!! ")
-       
-    txt = ent1.get().split()
+        tk.messagebox.showerror(title="FAILED",message="\t\t Oops! \n You have entered wrong value. Numbers can't be text values!!! \n BYE")
+        window.destroy()
+    
+    tk.messagebox.showinfo(title="SUCCESS",message=f"\t\tCongratulations!\n\n You have sent {int(ent3.get())} times the same text to {int(ent2.get())}")
+   
+    txt = ent1.get('1.0',tk.END).split()
     num = int(ent2.get())
     rep = int(ent3.get())
-    ent1.delete(0,tk.END)
+    ent1.delete('1.0',tk.END)
     ent2.delete(0,tk.END)
     ent3.delete(0,tk.END)
     
-    tk.messagebox.showinfo(title="SUCCESS",message=f"\t\tCongratulations!\n\n You have sent {rep} times the same text to {num}")
 
     wb.open_new("https://wa.me/91{}".format(num))
     time.sleep(6)
@@ -42,7 +44,7 @@ window.configure(bg="#3faae8")
 
 tk.Label(window,text="Welcome",font=("Gill Sans",20),bg="green").pack(pady=10)
 tk.Label(window,text="Type the text :- ",font=("Gill Sans",20)).pack(pady=20)
-ent1 = tk.Entry(window)
+ent1 = tk.Text(window)
 ent1.place(x=10,y=120,height=100,width=360)
 
 tk.Label(window,text="Enter Number :- ",font=("Gill Sans",20)).place(x=20,y=240) 
