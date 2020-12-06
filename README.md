@@ -4,7 +4,8 @@
 <br />
 <br />
 
-Code created by @abraraltaf92 - Just adding some stuff to help with beginners!
+Code created by @abraraltaf92
+Just adding some stuff to help with beginners!
 
 # Installation: Normal
 
