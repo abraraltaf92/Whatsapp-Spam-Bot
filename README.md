@@ -1,5 +1,10 @@
 # Basic Whatsapp-Spam-Bot using tkinter and some voice stuff
 
+<br />
+<br />
+<br />
+
+Code created by @abraraltaf92 - Just adding some stuff to help with beginners!
 
 # Installation: Normal
 
