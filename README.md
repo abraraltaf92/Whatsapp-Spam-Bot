@@ -4,7 +4,7 @@
 <br />
 <br />
 
-Code created by @abraraltaf92
+Code created by [@abraraltaf92](https://github.com/abraraltaf92)
 Just adding some stuff to help with beginners!
 
 # Installation: Normal
