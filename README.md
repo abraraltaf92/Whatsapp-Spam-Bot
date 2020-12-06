@@ -5,13 +5,13 @@
 <br />
 
 Code created by [@abraraltaf92](https://github.com/abraraltaf92)
-Just adding some stuff to help with beginners!
+
 
 # Installation: Normal
 
 Not Much to do here, just install with:
 
-    git clone git@github.com:BradyCodes/Whatsapp-Spam-Bot.git
+    git clone git@github.com:abraraltaf92/Whatsapp-Spam-Bot.git
             
 <br />
 
