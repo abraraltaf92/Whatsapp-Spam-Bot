@@ -9,6 +9,18 @@
 
 # Installation: Virtual Enviorment
 
+### Setting Up Your Virtual Enviorment
+
+    cd Desktop/
+    python3 -m venv wsb
+    cd wsb
+    source bin/activate
+
 ### Installing With Git
 
-1.    git clone git@github.com:BradyCodes/Whatsapp-Spam-Bot.git
+    cd ../
+    git clone git@github.com:BradyCodes/Whatsapp-Spam-Bot.git
+
+### Installing The Packages
+
+    pip install -r requirements.txt
