@@ -1,14 +1,14 @@
-#Basic Whatsapp-Spam-Bot using tkinter and some voice stuff
+# Basic Whatsapp-Spam-Bot using tkinter and some voice stuff
 
 
-#Installation: Normal
+# Installation: Normal
 
 
 
 
 
-#Installation: Virtual Enviorment
+# Installation: Virtual Enviorment
 
-###Installing With Git
+### Installing With Git
 
 1.    git clone git@github.com:BradyCodes/Whatsapp-Spam-Bot.git
