@@ -3,7 +3,11 @@
 
 # Installation: Normal
 
+Not Much to do here, just install with:
 
+    git clone git@github.com:BradyCodes/Whatsapp-Spam-Bot.git
+
+<br />
 
 
 
