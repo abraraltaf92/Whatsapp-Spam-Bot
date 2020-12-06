@@ -4,7 +4,8 @@
 <br />
 <br />
 
-Code created by [@abraraltaf92](https://github.com/abraraltaf92)
+Code created by [@abraraltaf92](https://github.com/abraraltaf92) and [@BradyCodes](https://github.com/BradyCodes) helped me 
+in maintaining the profile of the repo
 
 
 # Installation: Normal
@@ -12,6 +13,8 @@ Code created by [@abraraltaf92](https://github.com/abraraltaf92)
 Not Much to do here, just install with:
 
     git clone git@github.com:abraraltaf92/Whatsapp-Spam-Bot.git
+                            or
+    git clone git@github.com:BradyCodes/Whatsapp-Spam-Bot.git                        
             
 <br />
 
@@ -37,4 +40,4 @@ Not Much to do here, just install with:
 
 
 
-![Image of Application](https://github.com/BradyCodes/Whatsapp-Spam-Bot/blob/main/Screen%20Shot%202020-12-05%20at%2010.35.12%20PM.png)
+![Image of Application](https://github.com/abraraltaf92/Whatsapp-Spam-Bot/blob/main/Screen%20Shot%202020-12-05%20at%2010.35.12%20PM.png)
